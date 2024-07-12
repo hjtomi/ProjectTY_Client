@@ -31,15 +31,16 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
+    {"$GMObjectProperty":"v1","%Name":"base_x","filters":[],"listItems":[],"multiselect":false,"name":"base_x","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"base_y","filters":[],"listItems":[],"multiselect":false,"name":"base_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"color","filters":[],"listItems":[
         "\"blue\"",
         "\"yellow\"",
         "\"red\"",
-      ],"multiselect":false,"name":"color","rangeEnabled":true,"rangeMax":3.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"blue\"","varType":6,},
+      ],"multiselect":false,"name":"color","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"blue\"","varType":6,},
     {"$GMObjectProperty":"v1","%Name":"font_color","filters":[],"listItems":[
         "c_white",
         "c_black",
-        "c_cyan",
         "c_yellow",
         "c_red",
       ],"multiselect":false,"name":"font_color","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"c_white","varType":6,},
@@ -56,7 +57,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Button_Blue_3Slides",
+    "path":"sprites/Button_Blue_3Slides/Button_Blue_3Slides.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

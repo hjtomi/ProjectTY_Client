@@ -19,6 +19,8 @@ else
 
 x0_room = -window_get_x() * (room_width / window_get_width());
 y0_room = -window_get_y() * (room_height / window_get_height());
+
+// Use { x / room_width * window_get_width() } formula to draw GUI to 
+// the same position as the object
 x0_gui = -window_get_x();
 y0_gui = -window_get_y();
-

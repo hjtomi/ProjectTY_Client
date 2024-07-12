@@ -4,8 +4,8 @@ do_action = false;
 mouse_in = false;
 clicked = false;
 
-base_x = x;
-base_y = y;
+x = base_x;
+y = base_y;
 
 switch(color)
 {

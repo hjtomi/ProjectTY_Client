@@ -23,7 +23,7 @@
   ],
   "name":"Button_Blue",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Buttons",
     "path":"folders/Sprites/Buttons.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":32,
-    "yorigin":32,
+    "yorigin":24,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
